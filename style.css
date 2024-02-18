@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+@font-face {
+    font-family: gillroy;
+    src: url('Gilroy-SemiBold.ttf');
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+    font-family: gillroy;
+  
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(100, 207, 100);
+}
+
+#panel {
+    overflow: hidden;
+    width: 85%;
+    height: 90%;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#scoreboard {
+    height: 100px;
+    width: 100%;
+    background: rgb(179, 237, 179);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.elem h3 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.box {
+    color: #fff;
+    width: 62px;
+    height: 52px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: #fff;
+
+
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+
+}
+
+.chota {
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 15px;
+    justify-content: space-around;
+    font-size: 22px;
+    font-weight: 700;
+
+    color: #278427;
+}
+
+.pbtm {
+    height: calc(100% - 100px);
+    background-color: rgb(195, 255, 195);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center ;
+}
+
+.bubble {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.play {
+    position: relative;
+    left: 100px;
+    width: 188px;
+    height: 5px;
+    padding: 23px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(35, 33, 33);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.play:hover {
+    background-color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+#pause{
+    height: 5px;
+    padding: 23px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(35, 33, 33);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    left: 100px;
+  position: relative;
+ visibility: hidden;
+
+}
+#pause:hover{
+    background-color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
